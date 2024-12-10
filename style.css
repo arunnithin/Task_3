@@ -1,0 +1,81 @@
+body{
+    background-size: 100%;
+    background:linear-gradient(to right,rgb(242, 242, 82),aquamarine);
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    padding: 70px;
+}
+
+#heading{
+    font-size: 90px;
+    padding-top: 30px;
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    display: inline-flex;
+    text-align: center;
+}
+
+#taskInput{
+    color: black;
+    border: solid;
+    border: 5px;
+    margin-top: 50px;
+    width: 350px;
+    height: 60px;
+    border: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+#AddTask{
+    background-color: rgb(125, 199, 15);
+    color: black;
+    border-radius: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    width: 120px;
+    height: 60px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.page{
+    border-radius: 5px;
+    border: solid;
+    background-color:white;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-top: 100px;
+    justify-items: center;
+    margin-left: 650px;
+    border-radius: 30px;
+    background-image: url(images.jpeg);
+    background-size: 100%;
+}
+
+#taskList{
+    padding: 20px;
+    font-size: 30px;
+}
+
+#taskList button{
+    width: 80px;
+    height: 30px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+    top: 20%;
+    background-color:azure;
+    border-radius: 20px;
+    border: 1px solid black
+}
